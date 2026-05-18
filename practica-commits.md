@@ -46,9 +46,10 @@ Algo sobre mí : Me gusta jugar basketbol
 **Qué hacer:** Escribe tres cosas concretas que aprendiste en esta sesión.  
 **Commit:** `docs(aprendizaje): agrega notas de la sesión`
 
-1. 
-2. 
-3. 
+1. Saber el qué es un repositorio.
+2. Qué es un commit
+3. El cómo funcionan las 4 capas de Git
+4. Cómo hacer un .gitignore
 
 ---
 
