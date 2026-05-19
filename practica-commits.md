@@ -60,12 +60,12 @@ Algo sobre mí : Me gusta jugar basketbol
 
 | Comando | ¿Qué hace? |
 |---------|------------|
-| `git init` | |
-| `git status` | |
-| `git add .` | |
-| `git commit -m "..."` | |
-| `git log --oneline` | |
-| `git push` | |
+| `git init` | | Convertir una carpeta en un repositorio Git
+| `git status` | | Ver el estado de los archivos
+| `git add .` | | Agrega al Staging Area
+| `git commit -m "..."` | | Registrar los cambios 
+| `git log --oneline` | | Ver el historial
+| `git push` | | Subidas siguientes
 
 ---
 
