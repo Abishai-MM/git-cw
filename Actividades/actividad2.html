@@ -24,8 +24,8 @@
     int main()
     {
         int edad;
-        prihntf("¿Cuántos años tienes");
-        scanf("%d",edad);
+        printf("¿Cuántos años tienes");
+        scanf("%d",&edad);
 
         if(edad >=18)
         {
@@ -35,9 +35,30 @@
         {
             printf("Eres menor de edad.\n");
         }
-        
+
         return 0;
     }
+    </code></pre>
+
+    <hr>
+
+    <h5>Explicación del código</h5>
+
+    <p>La línea <code>#include &lt;stdio.h>&gt;</code> incluye la librería estándar de entrada y salida.</p>
+
+    <p>La función <code>int main()</code> es la función principal del programa.</p>
+
+    <p>La línea <code>int edad;</code> crea una variable llamada edad de tipo entero, que servirá para guardar la edad del usuario.</p>
+
+    <p>La función <code>printf("¿Cuántos años tienes");</code>muestra un mensaje en pantalla preguntando la edad. </p>
+
+    <p>La función <code>scanf("%d",edad);</code>sirve para leer un número que escriba el usuario y guardarlo en la variable edad.</p>
+
+    <p>La estructura condicional <code>if(edad >=18)</code> comprueba si la edad es mayor o igual a 18.</p>
+
+    <p>La función <code>printf("Eres mayor de edad.\n");</code> muestra el mensaje como resultado de la aprobación de la condición anterior.</p>
+
+    
 
 </body>
 </html>
