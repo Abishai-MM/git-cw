@@ -74,11 +74,11 @@ Algo sobre mí : Me gusta jugar basketbol
 **Qué hacer:** Cambia `[ ]` por `[x]` en cada punto que ya dominas.  
 **Commit:** `chore(practica): actualiza checklist de avance`
 
-- [ ] Hice `git init` sin ayuda
+- [X] Hice `git init` sin ayuda
 - [ ] Entiendo para qué sirve el Staging Area
-- [ ] Escribí un mensaje de commit con formato Conventional Commits
-- [ ] Puedo ver el historial con `git log`
-- [ ] Completé todos los niveles de esta práctica
+- [X] Escribí un mensaje de commit con formato Conventional Commits
+- [X] Puedo ver el historial con `git log`
+- [X] Completé todos los niveles de esta práctica
 
 ---
 
