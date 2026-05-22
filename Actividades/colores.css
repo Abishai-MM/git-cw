@@ -1,0 +1,86 @@
+table,th,td{
+            border:2px solid black;
+            padding: 8px;
+            margin: 25px;
+        }
+
+
+body{
+    font-family:monospace
+}
+
+@media (max-width: 400px){
+    body{
+        background-color: black;
+        color: white;
+        font-family: Courier New;
+    }
+}
+
+.nota{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+
+    background-color: greenyellow;
+    padding: 15px;
+
+    border: 1px solid black;
+}
+
+.color-azul {
+    background-color: blue;
+    color: white
+}
+
+.color-rojo {
+    background-color: red;
+    color: white
+}
+
+.color-amarillo {
+    background-color:yellow;
+    color: black
+}
+
+.color-verde {
+    background-color: green;
+    color: white
+}
+
+.color-rosa {
+    background-color: pink;
+    color: white
+}
+
+
+<!--Cambio de color al colocar el mause
+.color-rojo:hover{
+    background-color: black;
+    color: red;
+}
+
+.color-azul:hover{
+    background-color: black;
+    color: blue;
+}
+
+.color-rojo:hover{
+    background-color: black;
+    color: red;
+}
+
+.color-amarillo:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.color-verde:hover{
+    background-color: black ;
+    color: green;
+}
+
+.color-rosa:hover{
+    background-color: black;
+    color: pink;
+}
