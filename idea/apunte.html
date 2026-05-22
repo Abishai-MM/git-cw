@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.o">
+    <meta name="author" content="Abishai Mérida Martínez">
+    <meta name="description" content="Apunte de etiquetas">
+    <title>Tabla descriptiva</title>
+    <style>
+        table,th,td{
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <caption>Tabla descriptiva de etiquetas</caption>
+    <colgroup>
+        <col style="width: 33%">
+        <col style="width: 33%">
+        <col style="width: 33%">
+    </colgroup>
+    <thead>
+        <tr>
+            <th scope="cool">Etiqueta</th>
+            <th scope="cool">Para qué sirve</th>
+            <th scope="cool">Ejemplo mínimo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="1">&lt;p&gt;</td>
+            <td colspan="1">Escribir un mensaje o información y mandaro a pantalla</td>
+            <td colspan="1"><pre><code> &lt;p&gt; (Mensaje) &lt;/p&gt;</code></pre></td>
+        </tr>
+
+        <tr>
+            <td colspan="1">&lt;h1&gt;</td>
+            <td colspan="1">Colocar el encabezado de mayor tamaño en tu página</td>
+            <td colspan="1">&lt;h1&gt;Título de mayor tamaño&lt;/h1&gt;</td>
+        </tr>
+
+        <tr>
+            <td colspan="1">&lt;ul&gt;</td>
+            <td colspan="1">Sirve para iniciar una lista desordenada</td>
+            <td colspan="1"><pre><code>
+                &lt;ul&gt;
+                    &lt;li&gt; elemento
+                    &lt;li&gt; compuesto 
+                    &lt;li&gt; mineral
+                &lt;/ul&gt;
+            </code></pre></td>
+        </tr>
+
+        <tr>
+            <td colspan="1">&lt;ol&gt;</td>
+            <td colspan="1">Sirve para iniciar una lista ordenada</td>
+            <td colspan="1"><pre><code>
+                &lt;ol&gt;
+                    &lt;li&gt; elemento 1
+                    &lt;li&gt; elemento 2
+                    &lt;li&gt; elemento 3
+                &lt;/ol&gt;
+        </tr>
+
+        <tr>
+            <td colspan="1">&lt;hr&gt;</td>
+            <td colspan="1">Funciona como separador temático en tu página, añadiendo una línea en la página</td>
+            <td colspan="1"><pre><code>
+                &lt;p&gt; Parte superior de la página &lt;/p&gt;
+                &lt;hr&gt;--------------------------------------
+                &lt;p&gt; Parte inferior de la página &lt;/p&gt;
+            </code></pre></td>
+        </tr>
+    </tbody>
+</table>
+
+<form>
+    <label for="nombre">Introduce tu nombre</label>
+    <input id="nombre" type="text">
+
+    <label for="apellido1">Introduce tu primer apellido</label>
+    <input id="apellido1" type="text">
+
+    <label for="apellido2">Introduce tu segundo apellido</label>
+    <input id="apellido2" type="text">
+</form>
+
+</body>
+</html>
