@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.o">
+    <meta name="author" content="Abishai Mérida Martínez">
+    <meta name="description" content="Ejemplo de etiquetas semanticas">
+    <title>Título</title>
+</head>
+<body>
+
+<header>
+    <h1>Sistema de inscripciones</h1>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li> <!--Redirige a un archivo html-->
+            <li><a href="#acerca">Etiquetas</a></li> <!--Redirige a una sección específica de la página-->
+            <li><a href="talleres">Talleres</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="#quimica">Química</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section id="acerca">
+    <h2>¿Qué es este sistema?</h2>
+        <p>Sistema de inscripciones a talleres extracurriculares.</p>
+        <p>Disponible para todos los alumnos.</p>
+    </section>
+
+    <section id="talleres">
+    <h2>Talleres disponibles</h2>
+        <article>
+            <h3>Programación Web</h3>
+            <p>Lunes a viernes en un horario de 12:00-4:00 pm.</p>
+            <p>HTML, CSS y JavaScript</p>
+        </article>
+
+        <article>
+            <h3>Matemáticas</h3>
+            <p>Horarios</p>
+            <ul>
+                <li>Lunes 10:20-12:00</li>
+                <li>Miércoles 8:40-10:20</li>
+                <li>Viernes 8:40-9:30</li>
+            </ul>
+        </article>
+  
+        <article id="quimica"> <!--La etiqueta id se puede colocar en diferentes etiquetas-->
+            <h3>Química</h3>
+            <p>Horarios</p>
+            <ul>
+                <li>Lunes 10:20-12:00</li>
+                <li>Martes y jueves 10:20-11:10</li>
+            </ul>
+        </article> <!--Engloba una parte de toda la sección-->
+
+        <p><a href="#menu">Reresar al menú de Navegación</a></p>
+    </section> <!--Engloba toda la sección--> 
+
+</main>
+
+</body>
+</html>
